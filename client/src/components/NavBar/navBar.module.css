@@ -1,0 +1,29 @@
+.navBar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-image: url('../../images/Research-Geography-Countries-Map-Header-Banner-5456387.jpg');
+    background-position: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 1.4rem;
+    margin: 100px;
+    width: 200px;
+    height: 80px;
+    color:rgb(0, 0, 0);
+    font-weight: black;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(235, 215, 222, 0.856);
+    border: transparent;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: #ecc42056;
+    color: #050505;
+}

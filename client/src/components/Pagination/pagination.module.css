@@ -1,0 +1,44 @@
+.center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  background-color: #ffff;
+  border: 2px solid #afafae;
+  justify-content: center;
+  font-size: 15px;
+  width: 150px;
+  padding-top: 4px;
+  padding-bottom:4px;
+  border-radius: 4px;
+}
+
+.btn{
+  border: transparent;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btnDisabled{
+  background-color: #808080;
+  color: #505050;
+}
+
+.btnEnabled{
+  background-color: antiquewhite;
+  color: #362c18;
+  cursor: pointer;
+}
+
+.btnEnabled:hover{
+  background-color: rgb(205, 245, 245);
+}
+
+.pages{
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
